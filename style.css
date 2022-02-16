@@ -1,0 +1,85 @@
+
+body{
+    font-family: 'ShipporiMincho';
+    font-size: 40;
+    height: 20px !important;
+
+}
+.topnav{
+    text-align: end !important;
+    background-color: green;
+    color: gold;
+    padding-left: 20px;
+}
+a{ 
+    padding-right: 100px;
+}
+#title{
+    padding-left: 0%;
+text-align: center !important;
+}
+#teamname{
+    font-size: 100px;
+    color:green;
+    text-shadow: 5px 5px 2px gold;
+}
+#image{
+    zoom:0.5;
+    border-radius: 100%;
+}
+#aboutbtn, #pastbtn{
+    zoom:4;
+    position: relative;
+    top: 0%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color:auto;
+}
+.about{
+    text-align: left !important;
+}
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid white;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+#abtitle{
+    font-size: 100px;
+    color:green;
+    text-shadow: 5px 5px 2px gold;
+}
+#freightfrenzy{
+    text-align: center;
+    font-size: 100px;
+    color:green;
+    text-shadow: 5px 5px 2px gold;
+}
+#description{
+    font-size:24px;
+}
+p{
+    font-size: 18;
+}
+.personname{
+    text-align: left;
+}
+.persondescription{
+    text-align: left;
+}
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}  
